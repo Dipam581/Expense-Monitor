@@ -1,4 +1,4 @@
-![image](https://github.com/Dipam581/Expense-Monitor/assets/107043079/34f71f12-a272-43bd-9d9b-4c5f59831e46)![image](https://github.com/Dipam581/Expense-Monitor/assets/107043079/769e260a-f8a2-47af-b040-68c6c44ecee3)# React + Vite
+# React + Vite
 **Expense Monitor** - where you can track your monthly and yearly expense as well as your income.
 ![image](https://github.com/Dipam581/Expense-Monitor/assets/107043079/602842e1-c544-478b-832d-64b751329f1a)
 
