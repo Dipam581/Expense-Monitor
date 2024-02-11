@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  mongo_db:
+    container_name: database
+    image: mongo:latest
+    restart: always
+    volumes:
+      - mongo_db:/data/db
+
+
+  app:
+    build: .
+    ports:
+      - 4001:4000
+    environment:
+      APP_NAME: dockerProject
+      PORT: 8080
+      DB_URL: mongodb://mongo_db:27017
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongo_db: {}
